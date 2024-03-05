@@ -719,8 +719,11 @@ label fight_reaper:
         xalign 1.0
         yalign 0.60
 
-    rp "The \"Cursed Knight\" you seek."
+    rp "The \"Cursed Knight\" you seek. And whatever business you have with him, I could care less."
 
+    "Reaper turns his head towards the castle with a longing glance for a moment."
+
+    rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution."
 
     play sound "door_creak.mp3"
 
