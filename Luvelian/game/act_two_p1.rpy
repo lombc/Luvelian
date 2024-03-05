@@ -295,7 +295,7 @@ label dodge_reaper:
 
         "Reaper turns his head towards the castle with a longing glance for a moment."
 
-        rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution.""
+        rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution."
 
 
         play sound "door_creak.mp3"
@@ -513,7 +513,7 @@ label dodge_reaper:
 
         "Reaper turns his head towards the castle with a longing glance for a moment."
 
-        rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution.""
+        rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution."
 
 
         play sound "door_creak.mp3"

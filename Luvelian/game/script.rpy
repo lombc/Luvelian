@@ -6,6 +6,7 @@ image hr_p = "hr.png"
 image hr_p_webbed = "hr_webbed.png"
 
 define ck = Character("Cursed Knight", color="#9e063b")
+define lg = Character("Ludwig", color="#9e063b")
 image ck_p = "Cursed_Knight.png"
 
 define ar = Character("Arachne", color="#aa22ff")
