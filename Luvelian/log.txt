@@ -1,10 +1,10 @@
-2024-03-05 11:27:58 UTC
+2024-03-05 11:41:08 UTC
 Windows-10-10.0.19045
 Ren'Py 8.2.0.24012702
 
 Early init took 0.09s
 Loading error handling took 0.04s
-Loading script took 0.22s
+Loading script took 0.24s
 Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
 Running init code took 0.06s
@@ -16,11 +16,11 @@ Backing up script files to 'C:\\Users\\Admin\\AppData\\Roaming/RenPy/backups\\Lu
 Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.04s
+Initial gc took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.26s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
@@ -28,7 +28,7 @@ Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.02s
 Prepare screens took 0.09s
-Save pyanalysis. took 0.02s
+Save pyanalysis. took 0.03s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.07s
@@ -45,17 +45,10 @@ Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/act_two_p2.rpy", line 245, in script
-    jump End
-  File "D:\Renpy\renpy-8.2.0-sdk\renpy\ast.py", line 1698, in execute
-    rv = renpy.game.script.lookup(target)
-  File "D:\Renpy\renpy-8.2.0-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'End'.
-
-While running game code:
-  File "game/act_two_p2.rpy", line 245, in script
-    jump End
-ScriptError: could not find label 'End'.
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
