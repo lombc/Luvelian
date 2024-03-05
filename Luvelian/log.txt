@@ -1,10 +1,10 @@
-2024-03-05 11:19:44 UTC
+2024-03-05 11:27:58 UTC
 Windows-10-10.0.19045
 Ren'Py 8.2.0.24012702
 
-Early init took 0.08s
+Early init took 0.09s
 Loading error handling took 0.04s
-Loading script took 0.23s
+Loading script took 0.22s
 Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
 Running init code took 0.06s
@@ -20,7 +20,7 @@ Initial gc took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
+Creating interface object took 0.24s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
@@ -45,3 +45,17 @@ Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1017) drawable=(1920, 1017)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/act_two_p2.rpy", line 245, in script
+    jump End
+  File "D:\Renpy\renpy-8.2.0-sdk\renpy\ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "D:\Renpy\renpy-8.2.0-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'End'.
+
+While running game code:
+  File "game/act_two_p2.rpy", line 245, in script
+    jump End
+ScriptError: could not find label 'End'.

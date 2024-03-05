@@ -166,6 +166,112 @@ label act_two_p2:
                     "I'm sorry. My duty as a hero is to put an end to your crimes.":
                         jump kill_ludwig
 
+                        label retrieve_relic:
+                            
+                            "Ludwig smiles at you."
+
+                            lg "Thank you, hero. The altar is close by, just a few miles north at the top of the mountain."
+
+                            lg "May I ask… what is your name, hero?"
+
+                            menu:
+                                "They call me [hr], but you can call me anytime :)":
+                                    jump flirt_ludwig
+                                "[hr]. I should get going, before your condition gets worse.":
+                                    jump not_flirt
+
+                                    label flirt_ludwig:
+
+                                        "Ludwig is taken aback by your comment and blushes."
+                                        
+                                        scene corridor
+
+                                        show hr_p:
+                                            zoom 0.40
+                                            xzoom -1.0
+                                            xalign 0.1
+                                            yalign 0.75
+
+                                        show ck_p:
+                                            zoom 0.35
+                                            xalign 0.85
+                                            yalign 0.60
+
+                                        lg "I see. It is my pleasure to be acquainted with you."
+
+                                        lg "My curse…I sense that it is nearing its completion. If you come back with the relic and I am in an uncontrollable state…do what you must [hr]."
+
+                                        lg "And besides..."
+
+                                        lg "If that happens, I am glad to have met such a kind and attractive hero in my final moments before I lose consciousness."
+
+                                        "You immediately blush and don\’t know what to say."
+
+                                        scene corridor
+
+                                        show hr_p:
+                                            zoom 0.40
+                                            xzoom -1.0
+                                            xalign 0.1
+                                            yalign 0.45
+
+                                        show ck_p:
+                                            zoom 0.35
+                                            xalign 0.85
+                                            yalign 0.90
+
+                                        hr "I…I understand. I\’ll…be back with the relic as soon as possible."
+
+                                        scene corridor
+                                        with dissolve
+
+                                        "Embarrassed, you hurriedly leave Ludwig to rest as you head off to find the relic."
+
+                                        jump end
+
+                                    label not_flirt:
+
+                                        scene corridor
+
+                                        show hr_p:
+                                            zoom 0.40
+                                            xzoom -1.0
+                                            xalign 0.1
+                                            yalign 0.75
+
+                                        show ck_p:
+                                            zoom 0.35
+                                            xalign 0.85
+                                            yalign 0.60
+
+                                        lg "I see. It is my pleasure to be acquainted with you."
+
+                                        lg "My curse…I sense that it is nearing its completion. If you come back with the relic and I am in an uncontrollable state…do what you must[hr]."
+
+                                        "You nod, understanding the implication."
+
+                                        scene corridor
+
+                                        show hr_p:
+                                            zoom 0.40
+                                            xzoom -1.0
+                                            xalign 0.1
+                                            yalign 0.45
+
+                                        show ck_p:
+                                            zoom 0.35
+                                            xalign 0.85
+                                            yalign 0.90
+
+                                        hr "I understand. I\'ll be back with the relic as soon as possible."
+
+                                        scene corridor
+                                        with dissolve
+
+                                        "You leave Ludwig to rest as you head off to find the relic."
+
+                                        jump end
+
                         label kill_ludwig:
 
                             scene corridor
@@ -242,7 +348,7 @@ label act_two_p2:
 
                             "The End."
 
-                            jump End
+                            jump end
 
             label dont_know_name:
 
@@ -251,5 +357,7 @@ label act_two_p2:
                 lg "...A fitting name I supposed. My body is decaying as we speak."
 
                 lg "The name is Ludwig. Would rather you not call me the former, despite its verity."
+
+                jump end
 
     jump end
