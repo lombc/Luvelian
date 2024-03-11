@@ -1,6 +1,4 @@
-# File talks about second act of game where player meets Ludwig
-
-label act_two_p2:
+label act_two_b1_p2:
 
     play music "corridor.mp3"
 
@@ -351,15 +349,3 @@ label act_two_p2:
                             "The End."
 
                             jump end
-
-            label dont_know_name:
-
-                lg "Cursed Knight?"
-
-                lg "...A fitting name I supposed. My body is decaying as we speak."
-
-                lg "The name is Ludwig. Would rather you not call me the former, despite its verity."
-
-                jump end
-
-    jump end
