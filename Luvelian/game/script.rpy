@@ -43,7 +43,7 @@ label start:
     scene black with dissolve
 
     label gender:
-        'What are your pronouns?'
+        '{i}What are your pronouns?{/i}'
 
         menu Choice:
             "He/Him":

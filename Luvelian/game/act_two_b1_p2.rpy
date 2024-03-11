@@ -348,4 +348,4 @@ label act_two_b1_p2:
 
                             "The End."
 
-                            jump end
+                            jump act_three_b1
