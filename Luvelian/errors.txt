@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/act_two_b2.rpy", line 223: Line is indented, but the preceding play sound statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    $ know = 1
+File "game/act_two_b3.rpy", line 56: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    label avoid_reaper_b3:
     ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Mar 11 15:32:48 2024
+Mon Mar 11 15:52:59 2024
