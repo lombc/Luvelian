@@ -48,7 +48,7 @@ label act_two_b2:
     uc "What business brings you here?"
 
     menu:
-        "I’m looking for the Cursed Knight who resides here.":
+        "I\’m looking for the Cursed Knight who resides here.":
             jump avoid_reaper
         "None of yours if you value your life.":
             jump kill_reaper
@@ -219,6 +219,8 @@ label act_two_b2:
                 with dissolve
 
                 play sound "woosh.mp3" noloop
+
+                $ know = 1
 
                 jump act_two_b2_p2
 
@@ -578,8 +580,6 @@ label act_two_b2:
 
                 "Suddenly, Reaper disappears into a thick black mist."
                 "You decide to pass through the gate and enter the Abandoned Castle."
-
-                
 
                 jump act_two_b2_p2
 

@@ -2,87 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/act_two_p2.rpy", line 50: Line with id know_name_6d8cd16e appears twice. The other line is game/act_two_b1_p2.rpy:48
-
-File "game/act_two_p2.rpy", line 65: Line with id know_name_e7c72e85 appears twice. The other line is game/act_two_b1_p2.rpy:63
-
-File "game/act_two_p2.rpy", line 80: Line with id know_name_fc47362e appears twice. The other line is game/act_two_b1_p2.rpy:78
-
-File "game/act_two_p2.rpy", line 82: Line with id know_name_bf9ce09b appears twice. The other line is game/act_two_b1_p2.rpy:80
-
-File "game/act_two_p2.rpy", line 97: Line with id know_name_38841b8c appears twice. The other line is game/act_two_b1_p2.rpy:95
-
-File "game/act_two_p2.rpy", line 112: Line with id know_name_b59ace47 appears twice. The other line is game/act_two_b1_p2.rpy:110
-
-File "game/act_two_p2.rpy", line 127: Line with id know_name_a9ddc6ac appears twice. The other line is game/act_two_b1_p2.rpy:125
-
-File "game/act_two_p2.rpy", line 142: Line with id know_name_7a19f278 appears twice. The other line is game/act_two_b1_p2.rpy:140
-
-File "game/act_two_p2.rpy", line 144: Line with id know_name_6a05a140 appears twice. The other line is game/act_two_b1_p2.rpy:142
-
-File "game/act_two_p2.rpy", line 146: Line with id know_name_8f8c7718 appears twice. The other line is game/act_two_b1_p2.rpy:144
-
-File "game/act_two_p2.rpy", line 148: Line with id know_name_f838f9f6 appears twice. The other line is game/act_two_b1_p2.rpy:146
-
-File "game/act_two_p2.rpy", line 150: Line with id know_name_ef940a68 appears twice. The other line is game/act_two_b1_p2.rpy:148
-
-File "game/act_two_p2.rpy", line 173: Line with id retrieve_relic_1e2dee14 appears twice. The other line is game/act_two_b1_p2.rpy:171
-
-File "game/act_two_p2.rpy", line 175: Line with id retrieve_relic_2e7fcb6c appears twice. The other line is game/act_two_b1_p2.rpy:173
-
-File "game/act_two_p2.rpy", line 177: Line with id retrieve_relic_a1b99075 appears twice. The other line is game/act_two_b1_p2.rpy:175
-
-File "game/act_two_p2.rpy", line 187: Line with id flirt_ludwig_4596121b appears twice. The other line is game/act_two_b1_p2.rpy:185
-
-File "game/act_two_p2.rpy", line 202: Line with id flirt_ludwig_b5a57e1c appears twice. The other line is game/act_two_b1_p2.rpy:200
-
-File "game/act_two_p2.rpy", line 204: Line with id flirt_ludwig_f47e80ba appears twice. The other line is game/act_two_b1_p2.rpy:202
-
-File "game/act_two_p2.rpy", line 206: Line with id flirt_ludwig_e3c5c2d0 appears twice. The other line is game/act_two_b1_p2.rpy:204
-
-File "game/act_two_p2.rpy", line 208: Line with id flirt_ludwig_1e62c9c2 appears twice. The other line is game/act_two_b1_p2.rpy:206
-
-File "game/act_two_p2.rpy", line 210: Line with id flirt_ludwig_813bb172 appears twice. The other line is game/act_two_b1_p2.rpy:208
-
-File "game/act_two_p2.rpy", line 225: Line with id flirt_ludwig_b2333a53 appears twice. The other line is game/act_two_b1_p2.rpy:223
-
-File "game/act_two_p2.rpy", line 230: Line with id flirt_ludwig_01e6496f appears twice. The other line is game/act_two_b1_p2.rpy:228
-
-File "game/act_two_p2.rpy", line 249: Line with id not_flirt_b5a57e1c appears twice. The other line is game/act_two_b1_p2.rpy:247
-
-File "game/act_two_p2.rpy", line 251: Line with id not_flirt_3fc96ac7 appears twice. The other line is game/act_two_b1_p2.rpy:249
-
-File "game/act_two_p2.rpy", line 253: Line with id not_flirt_d80b93c6 appears twice. The other line is game/act_two_b1_p2.rpy:251
-
-File "game/act_two_p2.rpy", line 268: Line with id not_flirt_08425742 appears twice. The other line is game/act_two_b1_p2.rpy:266
-
-File "game/act_two_p2.rpy", line 273: Line with id not_flirt_41c63c72 appears twice. The other line is game/act_two_b1_p2.rpy:271
-
-File "game/act_two_p2.rpy", line 292: Line with id kill_ludwig_1a6682e1 appears twice. The other line is game/act_two_b1_p2.rpy:290
-
-File "game/act_two_p2.rpy", line 297: Line with id kill_ludwig_632ca785 appears twice. The other line is game/act_two_b1_p2.rpy:295
-
-File "game/act_two_p2.rpy", line 299: Line with id kill_ludwig_4c01a1ff appears twice. The other line is game/act_two_b1_p2.rpy:297
-
-File "game/act_two_p2.rpy", line 306: Line with id kill_ludwig_36e383df appears twice. The other line is game/act_two_b1_p2.rpy:304
-
-File "game/act_two_p2.rpy", line 310: Line with id kill_ludwig_52b93583 appears twice. The other line is game/act_two_b1_p2.rpy:308
-
-File "game/act_two_p2.rpy", line 325: Line with id kill_ludwig_7f5fc45d appears twice. The other line is game/act_two_b1_p2.rpy:323
-
-File "game/act_two_p2.rpy", line 327: Line with id kill_ludwig_12817c63 appears twice. The other line is game/act_two_b1_p2.rpy:325
-
-File "game/act_two_p2.rpy", line 329: Line with id kill_ludwig_8c203d4d appears twice. The other line is game/act_two_b1_p2.rpy:327
-
-File "game/act_two_p2.rpy", line 337: Line with id kill_ludwig_21b2226a appears twice. The other line is game/act_two_b1_p2.rpy:335
-
-File "game/act_two_p2.rpy", line 345: Line with id kill_ludwig_5e2b7bf0 appears twice. The other line is game/act_two_b1_p2.rpy:343
-
-File "game/act_two_p2.rpy", line 347: Line with id kill_ludwig_742c128a appears twice. The other line is game/act_two_b1_p2.rpy:345
-
-File "game/act_two_p2.rpy", line 349: Line with id kill_ludwig_dc8d453d appears twice. The other line is game/act_two_b1_p2.rpy:347
-
-File "game/act_two_p2.rpy", line 351: Line with id kill_ludwig_241951e0 appears twice. The other line is game/act_two_b1_p2.rpy:349
+File "game/act_two_b2.rpy", line 223: Line is indented, but the preceding play sound statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    $ know = 1
+    ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Mar 11 14:06:28 2024
+Mon Mar 11 15:32:48 2024

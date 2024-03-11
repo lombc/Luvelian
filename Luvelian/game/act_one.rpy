@@ -520,4 +520,4 @@ label help_stranger:
 
     "You continue on your journey."
             
-    jump end
+    jump act_two_b2
