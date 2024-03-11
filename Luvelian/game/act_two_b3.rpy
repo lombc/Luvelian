@@ -156,7 +156,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "In an instant, the figure shoves you to the ground with his scythe."
+                            "{i}In an instant, the figure shoves you to the ground with his scythe{/i}."
 
                             scene evil_castle
 

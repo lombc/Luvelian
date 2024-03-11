@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/act_two_b3.rpy", line 56: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    label avoid_reaper_b3:
-    ^
+File "game/act_two_b3.rpy", line 159: end of line expected.
+    {i}"In an instant, the figure shoves you to the ground with his scythe."{/i}
+                                                                            ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Mar 11 15:52:59 2024
+Mon Mar 11 16:21:32 2024
