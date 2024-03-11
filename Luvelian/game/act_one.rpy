@@ -444,12 +444,8 @@ with dissolve
 
 "After a short time you come across the corpse of a deer."
 
-"The corpse of a dead deer comes into view. Perhaps if you got here sooner than the deer's life could be saved."
-
 scene forest_bg
 with dissolve
-
-"The gaze of the forest is upon you and seems to blow the winds of disappointment."
 
 "You continue on your path to the abandoned castle."
 

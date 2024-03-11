@@ -1,3 +1,5 @@
+# File talks about second act of game where player meets Ludwig
+
 label act_two_p2:
 
     play music "corridor.mp3"
