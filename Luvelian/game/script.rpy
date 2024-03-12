@@ -30,6 +30,7 @@ image reaper = "Reaper_02.png"
 # Extras
 define gender = 0
 define know = 0
+define deer_help = 0
 image bounty = "bounty_board.png"
 image bounty_blur = im.Blur("bounty_board.png", 1.5)
 

@@ -471,7 +471,6 @@ label act_three_b1:
 
                 "The End."
 
-
                 jump end    
 
 

@@ -270,6 +270,9 @@ label act_two_b1_p2:
 
                                         "You leave Ludwig to rest as you head off to find the relic."
 
+                                        if: deer_help == 1
+                                            jump act_three_b2
+                                        
                                         jump act_three_b1
 
                         label kill_ludwig:

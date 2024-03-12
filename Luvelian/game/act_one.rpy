@@ -493,6 +493,8 @@ label help_stranger:
         yalign 0.80
     with dissolve
 
+    $ deer_help = 1
+
     "You take the time to bandage the deers wound and give it some water from your canteen."
 
     "The deer takes a moment to get to its feet but gives you some licks as it rushes off into the forest."
