@@ -20,6 +20,9 @@ label act_three_b2:
             jump ignore_deer
 
             label follow_deer:
+                scene nature
+                with dissolve
+                
                 show hr_p:
                     zoom 0.40
                     xzoom -1.0
@@ -28,9 +31,9 @@ label act_three_b2:
                 with dissolve
 
                 show deer_healed:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.60
+                    zoom 0.25
+                    xalign 0.75
+                    yalign 0.90
                 with dissolve
 
                 hr "Hmmm, I wonder if there’s another deer wounded."
@@ -70,9 +73,9 @@ label act_three_b2:
                 with dissolve
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.90
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.80
                 with dissolve
 
                 "...."
@@ -86,9 +89,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.60
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.65
 
                 dr "Hold on there, friend."
 
@@ -101,9 +104,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.90
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.80
 
                 "Caught off guard, you clutch the handle of your sword."
 
@@ -116,9 +119,9 @@ label act_three_b2:
                     yalign 0.45
 
                 show dr_p:
-                    zoom 0.35
+                    zoom 0.25
                     xalign 0.85
-                    yalign 0.90              
+                    yalign 0.80           
 
                 hr "Who are you?"
 
@@ -131,9 +134,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.60
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.65
 
                 dr "Slow your roll, there is no need for bloodshed."
                 dr "I am the Dryad that watches this forest."
@@ -149,9 +152,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.90
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.80
 
                 "Dryad glances at the deer."
 
@@ -164,9 +167,9 @@ label act_three_b2:
                     yalign 0.45
 
                 show dr_p:
-                    zoom 0.35
+                    zoom 0.25
                     xalign 0.85
-                    yalign 0.90             
+                    yalign 0.80         
 
                 hr "I'm just doing what I can."
 
@@ -179,9 +182,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.60
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.65
 
                 dr "And for that, I am grateful."
                 dr "The deer noticed you again while you were traveling, so I urged it to bring you to me."
@@ -195,9 +198,9 @@ label act_three_b2:
                     yalign 0.45
 
                 show dr_p:
-                    zoom 0.35
+                    zoom 0.25
                     xalign 0.85
-                    yalign 0.90             
+                    yalign 0.80          
 
                 hr "That is true. I am in search of the Relief Rune to aid a friend."
 
@@ -210,9 +213,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.60
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.65
 
                 dr "Is that so?"
                 dr "You do know what retrieving the Relief Rune will do to the town of Cendria, right?"
@@ -226,9 +229,9 @@ label act_three_b2:
                     yalign 0.45
 
                 show dr_p:
-                    zoom 0.35
+                    zoom 0.25
                     xalign 0.85
-                    yalign 0.90             
+                    yalign 0.80          
 
                 hr "You\’re right."
                 hr "I am a bit conflicted about that effect, but I do want to save a friend."
@@ -243,9 +246,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.60
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.65
 
                 dr "If that\’s the case."
                 dr "I allow you to retrieve the Forest Rune."
@@ -262,9 +265,9 @@ label act_three_b2:
                     yalign 0.45
 
                 show dr_p:
-                    zoom 0.35
+                    zoom 0.25
                     xalign 0.85
-                    yalign 0.90             
+                    yalign 0.80           
 
                 hr "I am in greatly appreciative of your gesture."
                 hr "Surely, I can return the favor?"
@@ -279,9 +282,9 @@ label act_three_b2:
                     yalign 0.75
 
                 show dr_p:
-                    zoom 0.35
-                    xalign 1.0
-                    yalign 0.60
+                    zoom 0.25
+                    xalign 0.85
+                    yalign 0.65
 
                 dr "No need. Helping this deer is enough for me to be also appreciative of you."
                 dr "Make sure to continue doing great deeds, further down the road."
@@ -295,9 +298,9 @@ label act_three_b2:
                     yalign 0.45
 
                 show dr_p:
-                    zoom 0.35
+                    zoom 0.25
                     xalign 0.85
-                    yalign 0.90             
+                    yalign 0.80           
 
                 hr "Thank you."
 
@@ -327,9 +330,9 @@ label act_three_b2:
 
                 hr "Wew, that was not so hard."
 
-                "Feeling relieved for a while, a frightening sound can be heard by the mountainside where the altar was located."
-
                 play sound "landslide.mp3"
+
+                "Feeling relieved for a while, a frightening sound can be heard by the mountainside where the altar was located."
 
                 "Then the sound ceased."
 
@@ -348,6 +351,8 @@ label act_three_b2:
                 with dissolve
 
                 "You then proceed to head back."
+
+                play music "corridor.mp3"
 
                 scene corridor
                 with dissolve
@@ -389,19 +394,19 @@ label act_three_b2:
                     xzoom -1.0
                     xalign 0.1
                     yalign 0.45
-                with dissolve
 
                 show ck_p:
                     zoom 0.35
                     xalign 0.85
-                    yalign 0.90
-                with dissolve                
+                    yalign 0.90             
 
                 hr "Here I\’m gonna place this Relief Rune on your chest, please hold on!"
 
                 play sound "glowing.mp3"
 
                 "You then place the Relief Rune on Ludwig\’s chest, and the curse that was consuming him slowly fades away."
+
+                stop sound fadeout 1.0
 
                 scene corridor
 
@@ -500,6 +505,8 @@ label act_three_b2:
 
                 scene main_menu_bg
                 with dissolve
+
+                play music "main_menu.mp3"
 
                 "Helping him integrate back into society, after a long slumber."
 
