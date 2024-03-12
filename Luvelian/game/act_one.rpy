@@ -46,10 +46,10 @@ label help_stranger:
         yalign 0.75
     with dissolve
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.75
+        yalign 0.65
     with dissolve
 
     hr "How dare you! Release me! Do you know who I am?! I\’m the chosen hero!"
@@ -62,8 +62,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -79,10 +79,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "*Sigh* You\’re not going to free me are you?"
 
@@ -94,8 +94,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -109,10 +109,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "Then what are you going to do to me? Eat me?"
 
@@ -124,8 +124,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -141,10 +141,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "You know, if you kill me I\’m going to haunt you with my heroic soul."
 
@@ -156,8 +156,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -171,10 +171,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "Oh? You don\’t know?"
 
@@ -186,8 +186,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_laugh:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -201,10 +201,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "No. If you kill me my heroic soul will haunt you for the rest of your life. I\’ll hide all your left shoes and I\’ll bore you to death with my extensive knowledge of fine poetry."
 
@@ -216,8 +216,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_laugh:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -233,10 +233,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_blush:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "I try."
 
@@ -248,8 +248,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_laugh:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -265,10 +265,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_blush:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "There\’s a Cursed Knight killing innocent people nearby the previously abandoned castle."
 
@@ -280,8 +280,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -295,10 +295,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "What do you mean?"
 
@@ -310,8 +310,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -325,10 +325,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "My name is [hr]."
 
@@ -340,8 +340,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -355,10 +355,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "By freeing me?"
 
@@ -370,8 +370,8 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_laugh:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
@@ -389,10 +389,10 @@ label help_stranger:
         xalign 0.1
         yalign 0.65
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_unimp:
+        zoom 0.48
         xalign 1.0
-        yalign 0.85
+        yalign 0.75
 
     hr "Wait, what is that for?"
 
@@ -404,12 +404,25 @@ label help_stranger:
         xalign 0.1
         yalign 0.85
 
-    show ar_p:
-        zoom 0.55
+    show ar_p_talk:
+        zoom 0.48
         xalign 1.0
         yalign 0.65
 
     ar "Farewell [hr], the chosen hero, hopefully we\’ll see each other again and you can enlighten with this fine poetry that you claim to write."
+
+    scene forest_bg
+
+    show hr_p_webbed:
+        zoom 0.40
+        xzoom -1.0
+        xalign 0.1
+        yalign 0.85
+
+    show ar_p_wink:
+        zoom 0.48
+        xalign 1.0
+        yalign 0.65
 
     "*Arachne disappears into the forest*"
 
@@ -508,6 +521,8 @@ label help_stranger:
     jump act_two_b2
 
     label dead_deer:
+
+    $ deer_help = 2
 
     scene forest_bg
     with dissolve

@@ -22,7 +22,7 @@ show hr_p:
     yalign 0.75
 with dissolve
 
-show reaper:
+show reaper_scary:
     zoom 0.35
     xalign 1.0
     yalign 0.90
@@ -40,7 +40,7 @@ show hr_p:
     xalign 0.1
     yalign 0.75
 
-show reaper:
+show reaper_scary:
     zoom 0.35
     xalign 1.0
     yalign 0.60
@@ -68,7 +68,7 @@ label meet_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_scary:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -83,7 +83,7 @@ label meet_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_scary:
         zoom 0.35
         xalign 1.0
         yalign 0.60
@@ -98,7 +98,7 @@ label meet_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_scary:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -119,7 +119,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_surprised:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -139,7 +139,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_scary:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -160,7 +160,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_surprised:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -173,7 +173,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -188,7 +188,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.60
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90 
@@ -203,7 +203,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -218,7 +218,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_laugh:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -233,7 +233,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.60
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -248,14 +248,14 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.60
 
         uc "Naturally. That depraved brat stole it from me. It must have been quite the trouble to tear it from her wretched hands."
 
-        uc "And…thank you. This locket means everything to me."
+        uc "....and thank you. This locket means everything to me."
 
         uc "They call me Reaper."
 
@@ -271,7 +271,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.60
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -286,7 +286,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_laugh:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -308,7 +308,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -323,7 +323,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -349,7 +349,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_scary:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -371,7 +371,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_scary:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -392,7 +392,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_surprised:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -405,7 +405,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -420,7 +420,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.60
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90 
@@ -435,7 +435,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -450,7 +450,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -465,7 +465,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.60
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -480,7 +480,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -503,7 +503,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.60
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -518,7 +518,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_laugh:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -540,7 +540,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.90
@@ -555,7 +555,7 @@ label meet_reaper:
             xalign 0.1
             yalign 0.75
 
-        show reaper:
+        show reaper_happy:
             zoom 0.35
             xalign 1.0
             yalign 0.60
@@ -582,7 +582,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_scary:
         zoom 0.35
         xalign 1.0
         yalign 0.60 
@@ -597,7 +597,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_scary:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -615,7 +615,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_scary:
         zoom 0.35
         xalign 1.0
         yalign 0.60
@@ -636,7 +636,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_surprised:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -649,7 +649,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.60
@@ -664,7 +664,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.60
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.90 
@@ -679,7 +679,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -694,7 +694,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.60
@@ -709,7 +709,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.60
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -724,7 +724,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.60
@@ -747,7 +747,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.60
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -762,7 +762,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_laugh:
         zoom 0.35
         xalign 1.0
         yalign 0.60
@@ -784,7 +784,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_happy:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -799,7 +799,7 @@ label argue_reaper:
         xalign 0.1
         yalign 0.75
 
-    show reaper:
+    show reaper_happyr:
         zoom 0.35
         xalign 1.0
         yalign 0.60

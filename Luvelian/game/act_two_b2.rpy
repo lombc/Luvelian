@@ -22,7 +22,7 @@ label act_two_b2:
         yalign 0.75
     with dissolve
 
-    show reaper:
+    show reaper_scary:
         zoom 0.35
         xalign 1.0
         yalign 0.90
@@ -68,7 +68,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -83,7 +83,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60
@@ -98,7 +98,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.60
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -113,7 +113,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60
@@ -130,7 +130,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -145,7 +145,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60 
@@ -160,7 +160,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.60
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -175,7 +175,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60                 
@@ -192,7 +192,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -207,7 +207,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60                
@@ -233,7 +233,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60 
@@ -248,7 +248,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -263,7 +263,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60 
@@ -278,7 +278,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -293,7 +293,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60 
@@ -308,7 +308,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -323,7 +323,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -338,7 +338,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60
@@ -353,7 +353,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -368,7 +368,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60 
@@ -383,7 +383,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.60
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -398,7 +398,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -413,7 +413,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60 
@@ -428,7 +428,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90
@@ -444,7 +444,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.60 
@@ -459,7 +459,7 @@ label act_two_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show reaper:
+                show reaper_scary:
                     zoom 0.35
                     xalign 1.0
                     yalign 0.90

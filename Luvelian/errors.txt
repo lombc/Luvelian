@@ -2,13 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/act_two_b1_p2.rpy", line 273: expected python_expression
-    if: deer_help == 1
-      ^
+The label take_rune is defined twice, at File "game/act_three_b1.rpy", line 23:
+            label take_rune:
+and File "game/act_three_b3.rpy", line 22:
+            label take_rune:
 
-File "game/act_two_b1_p2.rpy", line 275: expected statement.
-    else:
-        ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Mar 11 20:12:41 2024
+Mon Mar 11 23:20:09 2024

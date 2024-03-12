@@ -1,31 +1,48 @@
 ﻿# Introduction
 
-#Characters
+# Characters
 define narrator = Character(None, italics=True)
 
+# Hero
 define hr = Character(color="#52be4f")
 image hr_p = "hr.png"
 image hr_p_webbed = "hr_webbed.png"
 
+# Cursed Knight/Ludwig
 define ck = Character("Cursed Knight", color="#9e063b")
 define lg = Character("Ludwig", color="#9e063b")
 image ck_p = "Cursed_Knight.png"
 
+# Arachne
 define ar = Character("Arachne", color="#aa22ff")
 image ar_p = "Arachne_02.png"
+image ar_p_blush = "Arachne_Blush.png"
+image ar_p_laugh = "Arachne_Laughing.png"
+image ar_p_talk = "Arachne_Talking.png"
+image ar_p_wink = "Arachne_Winking.png"
+image ar_p_unimp = "Arachne_Unimpressed.png"
 
+# Dryad
 define dr = Character("Dryad", color="#808000")
 image dr_p = "dryad.png"
+image dr_p_smile = "dryad_smile.png"
 
+# Mysterious Stranger
 define sc = Character("Mysterious Stranger", color="#ff000f")
 define uc = Character("????", color="#adaec2")
 
+# Deer
 image deer_dead = "deer_dead.png"
 image deer_wounded = "deer_wounded_01.png"
 image deer_healed = "deer_bandage.png"
 
+# Reaper
 define rp = Character("Reaper", color="#adaec2")
 image reaper = "Reaper_02.png"
+image reaper_happy = "Reaper_Happy.png"
+image reaper_laugh = "Reaper_Laugh.png"
+image reaper_scary = "Reaper_Scary.png"
+image reaper_surprised = "Reaper_Surprised.png"
 
 # Extras
 define gender = 0
