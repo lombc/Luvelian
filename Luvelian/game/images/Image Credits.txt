@@ -18,3 +18,9 @@ Image by loannis loannidis from Pixabay
 
 -- altar
 Image by 3centista from Pixabay
+
+-- main_menu_bg
+Image by Enrique Meseguer from Pixabay
+
+-- flood
+Image by Hans from Pixabay

@@ -1,6 +1,7 @@
 ﻿# Introduction
 
 #Characters
+define narrator = Character(None, italics=True)
 
 define hr = Character(color="#52be4f")
 image hr_p = "hr.png"
