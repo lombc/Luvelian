@@ -10,7 +10,7 @@ label act_three_b2:
         yalign 0.80
     with dissolve
 
-    "It turns out to be the deer that they saved from its demise early on."
+    "It turns out to be the deer that you saved from its demise early on."
     "You noticed that the deer is urging you in another direction."
 
     menu:

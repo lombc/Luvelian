@@ -581,7 +581,7 @@ label act_two_b2:
                 "Suddenly, Reaper disappears into a thick black mist."
                 "You decide to pass through the gate and enter the Abandoned Castle."
 
-                jump act_two_b2_p2
+                jump act_two_b1_p2
 
 
                 

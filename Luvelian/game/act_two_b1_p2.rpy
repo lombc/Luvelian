@@ -227,7 +227,10 @@ label act_two_b1_p2:
 
                                         "Embarrassed, you hurriedly leave Ludwig to rest as you head off to find the relic."
 
-                                        jump act_three_b1
+                                        if deer_help == 1:
+                                            jump act_three_b2
+                                        else:
+                                            jump act_three_b1
 
                                     label not_flirt:
 
@@ -270,10 +273,10 @@ label act_two_b1_p2:
 
                                         "You leave Ludwig to rest as you head off to find the relic."
 
-                                        if: deer_help == 1
+                                        if deer_help == 1:
                                             jump act_three_b2
-                                        
-                                        jump act_three_b1
+                                        else:
+                                            jump act_three_b1
 
                         label kill_ludwig:
 

@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/act_two_b3.rpy", line 159: end of line expected.
-    {i}"In an instant, the figure shoves you to the ground with his scythe."{/i}
-                                                                            ^
+File "game/act_two_b1_p2.rpy", line 273: expected python_expression
+    if: deer_help == 1
+      ^
+
+File "game/act_two_b1_p2.rpy", line 275: expected statement.
+    else:
+        ^
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon Mar 11 16:21:32 2024
+Mon Mar 11 20:12:41 2024
