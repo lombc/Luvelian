@@ -9,7 +9,7 @@ label act_two_b1_p2:
 
     "{i}In the distance, you spot a man in armor on the ground, back against the corridor wall with his head down.{/i}"
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -149,7 +149,7 @@ label act_two_b1_p2:
 
                 scene corridor
 
-                show hr_p:
+                show hr_p_think:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -186,7 +186,7 @@ label act_two_b1_p2:
                                         
                                         scene corridor
 
-                                        show hr_p:
+                                        show hr_p_surprised:
                                             zoom 0.40
                                             xzoom -1.0
                                             xalign 0.1
@@ -205,11 +205,24 @@ label act_two_b1_p2:
 
                                         lg "If that happens, I am glad to have met such a kind and attractive hero in my final moments before I lose consciousness."
 
+                                        scene corridor
+
+                                        show hr_p_kawaii:
+                                            zoom 0.40
+                                            xzoom -1.0
+                                            xalign 0.1
+                                            yalign 0.75
+
+                                        show ck_p:
+                                            zoom 0.35
+                                            xalign 0.85
+                                            yalign 0.60
+
                                         "{i}You immediately blush and don\’t know what to say.{/i}"
 
                                         scene corridor
 
-                                        show hr_p:
+                                        show hr_p_kawaii:
                                             zoom 0.40
                                             xzoom -1.0
                                             xalign 0.1
@@ -236,7 +249,7 @@ label act_two_b1_p2:
 
                                         scene corridor
 
-                                        show hr_p:
+                                        show hr_p_flat:
                                             zoom 0.40
                                             xzoom -1.0
                                             xalign 0.1
@@ -255,7 +268,7 @@ label act_two_b1_p2:
 
                                         scene corridor
 
-                                        show hr_p:
+                                        show hr_p_flat:
                                             zoom 0.40
                                             xzoom -1.0
                                             xalign 0.1
@@ -282,7 +295,7 @@ label act_two_b1_p2:
 
                             scene corridor
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1

@@ -15,7 +15,7 @@ play music "wind_theme.mp3"
 scene evil_castle
 with dissolve
 
-show hr_p:
+show hr_p_fight:
     zoom 0.40
     xzoom -1.0
     xalign 0.1
@@ -34,7 +34,7 @@ play sound "metal_clank.mp3"
 
 stop sound fadeout 1.0
 
-show hr_p:
+show hr_p_fight:
     zoom 0.40
     xzoom -1.0
     xalign 0.1
@@ -62,7 +62,7 @@ label meet_reaper:
 
     scene evil_castle
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -77,7 +77,7 @@ label meet_reaper:
 
     scene evil_castle
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -92,7 +92,7 @@ label meet_reaper:
 
     scene evil_castle
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -113,7 +113,7 @@ label meet_reaper:
 
         scene evil_castle
 
-        show hr_p:
+        show hr_p_fight:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -133,7 +133,7 @@ label meet_reaper:
 
         play sound "fall.mp3" noloop
 
-        show hr_p:
+        show hr_p_fight:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -154,7 +154,7 @@ label meet_reaper:
 
         scene evil_castle
 
-        show hr_p:
+        show hr_p_fight:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -167,7 +167,7 @@ label meet_reaper:
 
         scene evil_castle
 
-        show hr_p:
+        show hr_p_surprised:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -182,7 +182,7 @@ label meet_reaper:
 
         scene evil_castle
 
-        show hr_p:
+        show hr_p_flat:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -343,7 +343,7 @@ label meet_reaper:
 
     label not_met_arachne:
 
-        show hr_p:
+        show hr_p_fight:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -365,7 +365,7 @@ label meet_reaper:
 
         play sound "fall.mp3" noloop
 
-        show hr_p:
+        show hr_p_fight:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -386,7 +386,7 @@ label meet_reaper:
 
         scene evil_castle
 
-        show hr_p:
+        show hr_p_fight:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -399,7 +399,7 @@ label meet_reaper:
 
         scene evil_castle
 
-        show hr_p:
+        show hr_p_surprised:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -414,7 +414,7 @@ label meet_reaper:
 
         scene evil_castle
 
-        show hr_p:
+        show hr_p_surprised:
             zoom 0.40
             xzoom -1.0
             xalign 0.1
@@ -576,7 +576,7 @@ label meet_reaper:
 label argue_reaper:
     scene evil_castle
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -591,7 +591,7 @@ label argue_reaper:
 
     scene evil_castle
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -609,7 +609,7 @@ label argue_reaper:
 
     play sound "fall.mp3" noloop
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -630,7 +630,7 @@ label argue_reaper:
 
     scene evil_castle
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -643,7 +643,7 @@ label argue_reaper:
 
     scene evil_castle
 
-    show hr_p:
+    show hr_p_surprised:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -658,7 +658,7 @@ label argue_reaper:
 
     scene evil_castle
 
-    show hr_p:
+    show hr_p_surprised:
         zoom 0.40
         xzoom -1.0
         xalign 0.1

@@ -97,7 +97,7 @@ label act_three_b2:
 
                 scene cave
 
-                show hr_p:
+                show hr_p_fight:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -127,7 +127,7 @@ label act_three_b2:
 
                 scene cave
 
-                show hr_p:
+                show hr_p_surprised:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -160,7 +160,7 @@ label act_three_b2:
 
                 scene cave
 
-                show hr_p:
+                show hr_p_think:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -191,7 +191,7 @@ label act_three_b2:
                 
                 scene cave
 
-                show hr_p:
+                show hr_p_think:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -222,7 +222,7 @@ label act_three_b2:
             
                 scene cave
 
-                show hr_p:
+                show hr_p_think:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -239,7 +239,7 @@ label act_three_b2:
 
                 scene cave
 
-                show hr_p:
+                show hr_p_surprised:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -258,7 +258,7 @@ label act_three_b2:
 
                 scene cave
 
-                show hr_p:
+                show hr_p_kawaii:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -291,7 +291,7 @@ label act_three_b2:
 
                 scene cave
 
-                show hr_p:
+                show hr_p_kawaii:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -455,7 +455,7 @@ label act_three_b2:
 
                 scene corridor
 
-                show hr_p:
+                show hr_p_think:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -485,7 +485,7 @@ label act_three_b2:
 
                 scene corridor
 
-                show hr_p:
+                show hr_p_kawaii:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1

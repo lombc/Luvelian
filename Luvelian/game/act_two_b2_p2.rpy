@@ -14,7 +14,7 @@ label act_two_b2_p2:
         "{i}You enter a vast ruined corridor upon opening the castle doors.{/i}"
         "{i}In the distance, you spot a man in armor on the ground, back against the corridor wall with his head down.{/i}"
 
-        show hr_p:
+        show hr_p_fight:
             zoom 0.40
             xzoom -1.0
             xalign 0.1

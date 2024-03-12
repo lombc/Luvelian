@@ -15,7 +15,7 @@ label act_two_b3:
     scene evil_castle
     with dissolve
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -34,7 +34,7 @@ label act_two_b3:
 
     stop sound fadeout 1.0
 
-    show hr_p:
+    show hr_p_fight:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -74,7 +74,7 @@ label act_two_b3:
 
                 scene evil_castle
 
-                show hr_p:
+                show hr_p_fight:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -90,7 +90,7 @@ label act_two_b3:
 
                 scene evil_castle
 
-                show hr_p:
+                show hr_p_fight:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -105,7 +105,7 @@ label act_two_b3:
 
                 scene evil_castle
 
-                show hr_p:
+                show hr_p_fight:
                     zoom 0.40
                     xzoom -1.0
                     xalign 0.1
@@ -129,7 +129,7 @@ label act_two_b3:
 
                             scene evil_castle
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -145,7 +145,7 @@ label act_two_b3:
 
                             scene evil_castle
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -160,7 +160,7 @@ label act_two_b3:
 
                             scene evil_castle
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -176,7 +176,7 @@ label act_two_b3:
                             
                             scene evil_castle with hpunch
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -191,7 +191,7 @@ label act_two_b3:
 
                             scene evil_castle
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -206,7 +206,7 @@ label act_two_b3:
 
                             scene evil_castle
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -221,7 +221,7 @@ label act_two_b3:
 
                             scene evil_castle with vpunch
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -236,7 +236,7 @@ label act_two_b3:
 
                             scene evil_castle with hpunch
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -251,7 +251,7 @@ label act_two_b3:
 
                             scene evil_castle with vpunch
 
-                            show hr_p:
+                            show hr_p_fight:
                                 zoom 0.40
                                 xzoom -1.0
                                 xalign 0.1
@@ -272,7 +272,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -287,7 +287,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60 
@@ -317,7 +317,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -332,7 +332,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60 
@@ -347,7 +347,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -363,7 +363,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper_laugh:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60 
@@ -378,7 +378,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -393,7 +393,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60
@@ -408,7 +408,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -423,7 +423,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60
@@ -438,7 +438,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.60
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -453,7 +453,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60
@@ -471,7 +471,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -486,7 +486,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60
@@ -501,7 +501,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.90
@@ -517,7 +517,7 @@ label act_two_b3:
                                 xalign 0.1
                                 yalign 0.75
 
-                            show reaper_scary:
+                            show reaper:
                                 zoom 0.35
                                 xalign 1.0
                                 yalign 0.60

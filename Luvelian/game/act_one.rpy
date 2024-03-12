@@ -39,7 +39,7 @@ label help_stranger:
 
     "{i}The stranger reveals their true identity, you see a large half woman/half spider.{/i}"    
 
-    show hr_p_webbed:
+    show hr_p_webbed_2:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -56,7 +56,7 @@ label help_stranger:
 
     scene forest_bg
 
-    show hr_p_webbed:
+    show hr_p_webbed_2:
         zoom 0.40
         xzoom -1.0
         xalign 0.1
@@ -73,7 +73,7 @@ label help_stranger:
 
     scene forest_bg
 
-    show hr_p_webbed:
+    show hr_p_webbed_2:
         zoom 0.40
         xzoom -1.0
         xalign 0.1

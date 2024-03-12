@@ -80,7 +80,7 @@ label start:
                 jump gender_neutral
 
         label gender_male:
-            show hr_p:
+            show hr_p_fight:
                 zoom 0.5
                 xalign 0.5
                 yalign 0.5
@@ -95,7 +95,7 @@ label start:
                     jump gender
 
         label gender_female:
-            show hr_p:
+            show hr_p_fight:
                 zoom 0.5
                 xalign 0.5
                 yalign 0.5
@@ -110,7 +110,7 @@ label start:
                     jump gender
 
         label gender_neutral:
-            show hr_p:
+            show hr_p_fight:
                 zoom 0.5
                 xalign 0.5
                 yalign 0.5
