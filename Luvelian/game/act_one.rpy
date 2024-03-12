@@ -17,7 +17,7 @@ play music "forest_theme.mp3"
 
 "{i}You trek through the forest for a couple hours before hearing the sounds of a voice yelling for help.{/i}"
 
-sc "Please help! I\’m trapped in a spider web!{/i}"
+sc "Please help! I\’m trapped in a spider web!"
 
 "{i}You see a woman trapped in a web struggling to break free from a large spider web between two trees.{/i}"
 
