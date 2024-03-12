@@ -6,11 +6,11 @@ with dissolve
 stop music fadeout 1.0
 play music "wind_theme.mp3"
 
-"Leaving the forest, you finally come across the Abandoned Castle."
+"{i}Leaving the forest, you finally come across the Abandoned Castle.{/i}"
 
-"As you approach the gates of the castle, you notice a hooded figure leaning on the gate."
+"{i}As you approach the gates of the castle, you notice a hooded figure leaning on the gate.{/i}"
 
-"Deciding not to cause any trouble, you ignore the individual and reach towards the gate"
+"{i}Deciding not to cause any trouble, you ignore the individual and reach towards the gate.{/i}"
 
 scene evil_castle
 with dissolve
@@ -30,7 +30,7 @@ with dissolve
 
 play sound "metal_clank.mp3"
 
-"The hooded figure hits the gate with his scythe just inches away from your hand."
+"{i}The hooded figure hits the gate with his scythe just inches away from your hand.{/i}"
 
 stop sound fadeout 1.0
 
@@ -73,7 +73,7 @@ label meet_reaper:
         xalign 1.0
         yalign 0.90
 
-    "The figure slowly runs his finger along the edge of his scythe."
+    "{i}The figure slowly runs his finger along the edge of his scythe.{/i}"
 
     scene evil_castle
 
@@ -126,7 +126,7 @@ label meet_reaper:
 
         uc "You side with that wench?"
 
-        "In an instant, the figure shoves you to the ground with his scythe. He brings his weapon back, looking to attack you as you lie helplessly on the ground."
+        "{i}In an instant, the figure shoves you to the ground with his scythe. He brings his weapon back, looking to attack you as you lie helplessly on the ground.{/i}"
 
         scene evil_castle
         with hpunch
@@ -208,7 +208,7 @@ label meet_reaper:
             xalign 1.0
             yalign 0.90
 
-        "The figure drops his scythe and rushes over to pick up the locket you dropped."
+        "{i}The figure drops his scythe and rushes over to pick up the locket you dropped.{/i}"
 
         scene evil_castle
 
@@ -293,7 +293,7 @@ label meet_reaper:
 
         rp "The \"Cursed Knight\" you seek. And whatever business you have with him, I could care less."
 
-        "Reaper turns his head towards the castle with a longing glance for a moment."
+        "{i}Reaper turns his head towards the castle with a longing glance for a moment.{/i}"
 
         rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution."
 
@@ -313,7 +313,7 @@ label meet_reaper:
             xalign 1.0
             yalign 0.90
 
-        "Reaper opens the gate for you and motions for you to pass through."
+        "{i}Reaper opens the gate for you and motions for you to pass through.{/i}"
 
         scene evil_castle
 
@@ -335,9 +335,9 @@ label meet_reaper:
 
         play sound "woosh.mp3" noloop
 
-        "Suddenly, Reaper disappears into a thick black mist."
+        "{i}Suddenly, Reaper disappears into a thick black mist.{/i}"
 
-        "You decide to pass through the gate and enter the Abandoned Castle."
+        "{i}You decide to pass through the gate and enter the Abandoned Castle.{/i}"
 
         jump act_two_b1_p2
 
@@ -358,7 +358,7 @@ label meet_reaper:
         uc "In fact..."
         uc "You came from that forest {i}she{/i} resides in."
 
-        "In an instant, the figure shoves you to the ground with his scythe. He brings his weapon back, looking to attack you as you lie helplessly on the ground."
+        "{i}In an instant, the figure shoves you to the ground with his scythe. He brings his weapon back, looking to attack you as you lie helplessly on the ground.{/i}"
 
         scene evil_castle
         with hpunch
@@ -440,7 +440,7 @@ label meet_reaper:
             xalign 1.0
             yalign 0.90
 
-        "The figure drops his scythe and rushes over to pick up the locket you dropped."
+        "{i}The figure drops his scythe and rushes over to pick up the locket you dropped.{/i}"
 
         scene evil_castle
 
@@ -525,7 +525,7 @@ label meet_reaper:
 
         rp "The \"Cursed Knight\" you seek. And whatever business you have with him, I could care less."
 
-        "Reaper turns his head towards the castle with a longing glance for a moment."
+        "{i}Reaper turns his head towards the castle with a longing glance for a moment.{/i}"
 
         rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution."
 
@@ -545,7 +545,7 @@ label meet_reaper:
             xalign 1.0
             yalign 0.90
 
-        "Reaper opens the gate for you and motions for you to pass through."
+        "{i}Reaper opens the gate for you and motions for you to pass through.{/i}"
 
         scene evil_castle
 
@@ -567,9 +567,9 @@ label meet_reaper:
 
         play sound "woosh.mp3" noloop
 
-        "Suddenly, Reaper disappears into a thick black mist."
+        "{i}Suddenly, Reaper disappears into a thick black mist.{/i}"
 
-        "You decide to pass through the gate and enter the Abandoned Castle."
+        "{i}You decide to pass through the gate and enter the Abandoned Castle.{/i}"
 
         jump act_two_b1_p2
 
@@ -602,7 +602,7 @@ label argue_reaper:
         xalign 1.0
         yalign 0.90
 
-    "In an instant, the figure shoves you to the ground with his scythe. He brings his weapon back, looking to attack you as you lie helplessly on the ground."
+    "{i}In an instant, the figure shoves you to the ground with his scythe. He brings his weapon back, looking to attack you as you lie helplessly on the ground.{/i}"
 
     scene evil_castle
     with hpunch
@@ -684,7 +684,7 @@ label argue_reaper:
         xalign 1.0
         yalign 0.90
 
-    "The figure drops his scythe and rushes over to pick up the locket you dropped."
+    "{i}The figure drops his scythe and rushes over to pick up the locket you dropped.{/i}"
 
     scene evil_castle
 
@@ -769,7 +769,7 @@ label argue_reaper:
 
     rp "The \"Cursed Knight\" you seek. And whatever business you have with him, I could care less."
 
-    "Reaper turns his head towards the castle with a longing glance for a moment."
+    "{i}Reaper turns his head towards the castle with a longing glance for a moment.{/i}"
 
     rp "…He\'s long gone anyways. He won\'t be much of a threat to you, so no need to tread with caution."
 
@@ -789,7 +789,7 @@ label argue_reaper:
         xalign 1.0
         yalign 0.90
 
-    "Reaper opens the gate for you and motions for you to pass through."
+    "{i}Reaper opens the gate for you and motions for you to pass through.{/i}"
 
     scene evil_castle
 
@@ -811,9 +811,9 @@ label argue_reaper:
 
     play sound "woosh.mp3" noloop
 
-    "Suddenly, Reaper disappears into a thick black mist."
+    "{i}Suddenly, Reaper disappears into a thick black mist.{/i}"
 
-    "You decide to pass through the gate and enter the Abandoned Castle."
+    "{i}You decide to pass through the gate and enter the Abandoned Castle.{/i}"
 
     jump act_two_b1_p2
 

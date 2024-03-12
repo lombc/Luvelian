@@ -5,9 +5,9 @@ label act_two_b1_p2:
     scene corridor
     with dissolve
 
-    "You enter a vast ruined corridor upon opening the castle doors."
+    "{i}You enter a vast ruined corridor upon opening the castle doors.{/i}"
 
-    "In the distance, you spot a man in armor on the ground, back against the corridor wall with his head down."
+    "{i}In the distance, you spot a man in armor on the ground, back against the corridor wall with his head down.{/i}"
 
     show hr_p:
         zoom 0.40
@@ -22,7 +22,7 @@ label act_two_b1_p2:
         yalign 0.90
     with dissolve
 
-    "You slowly approach the man."
+    "{i}You slowly approach the man.{/i}"
 
     menu:
         "Ludwig?":
@@ -92,7 +92,7 @@ label act_two_b1_p2:
                     xalign 0.85
                     yalign 0.90
 
-                "As Ludwig grimaces, you inspect his damaged and veiny skin, flushed with an unnatural purple tone."
+                "{i}As Ludwig grimaces, you inspect his damaged and veiny skin, flushed with an unnatural purple tone.{/i}"
 
                 scene corridor
 
@@ -168,7 +168,7 @@ label act_two_b1_p2:
 
                         label retrieve_relic:
                             
-                            "Ludwig smiles at you."
+                            "{i}Ludwig smiles at you.{/i}"
 
                             lg "Thank you, hero. The altar is close by, just a few miles north at the top of the mountain."
 
@@ -182,7 +182,7 @@ label act_two_b1_p2:
 
                                     label flirt_ludwig:
 
-                                        "Ludwig is taken aback by your comment and blushes."
+                                        "{i}Ludwig is taken aback by your comment and blushes.{/i}"
                                         
                                         scene corridor
 
@@ -205,7 +205,7 @@ label act_two_b1_p2:
 
                                         lg "If that happens, I am glad to have met such a kind and attractive hero in my final moments before I lose consciousness."
 
-                                        "You immediately blush and don\’t know what to say."
+                                        "{i}You immediately blush and don\’t know what to say.{/i}"
 
                                         scene corridor
 
@@ -225,7 +225,7 @@ label act_two_b1_p2:
                                         scene corridor
                                         with dissolve
 
-                                        "Embarrassed, you hurriedly leave Ludwig to rest as you head off to find the relic."
+                                        "{i}Embarrassed, you hurriedly leave Ludwig to rest as you head off to find the relic.{/i}"
 
                                         if deer_help == 1:
                                             jump act_three_b2
@@ -251,7 +251,7 @@ label act_two_b1_p2:
 
                                         lg "My curse…I sense that it is nearing its completion. If you come back with the relic and I am in an uncontrollable state…do what you must[hr]."
 
-                                        "You nod, understanding the implication."
+                                        "{i}You nod, understanding the implication.{/i}"
 
                                         scene corridor
 
@@ -271,7 +271,7 @@ label act_two_b1_p2:
                                         scene corridor
                                         with dissolve
 
-                                        "You leave Ludwig to rest as you head off to find the relic."
+                                        "{i}You leave Ludwig to rest as you head off to find the relic.{/i}"
 
                                         if deer_help == 1:
                                             jump act_three_b2
@@ -298,20 +298,20 @@ label act_two_b1_p2:
                             scene corridor
                             with dissolve
 
-                            "Ludwig longingly stares into your eyes. You sense he accepts his end."
+                            "{i}Ludwig longingly stares into your eyes. You sense he accepts his end.{/i}"
 
-                            "You give Ludwig a solemn nod, and swiftly plunge your sword into his chest."
+                            "{i}You give Ludwig a solemn nod, and swiftly plunge your sword into his chest.{/i}"
 
                             play sound "stab.mp3" noloop
                             scene corridor
                             with dissolve
                             with vpunch
 
-                            "Ludwig recoils, and crumples to his side as you quickly pull the sword out from his body."
+                            "{i}Ludwig recoils, and crumples to his side as you quickly pull the sword out from his body.{/i}"
 
                             stop sound fadeout 2.0
 
-                            "Ludwig faintly smiles as he lays. You sense his death is freeing for him."
+                            "{i}Ludwig faintly smiles as he lays. You sense his death is freeing for him.{/i}"
 
                             scene corridor
 
@@ -328,9 +328,9 @@ label act_two_b1_p2:
 
                             lg "I don\’t blame you at all, hero. You are doing what you believe is right. I can finally be at peace."
 
-                            "Ludwig passes away."
+                            "{i}Ludwig passes away.{/i}"
 
-                            "You stand above his motionless body for a moment in silence, reflecting upon your decision. It certainly did not feel right."
+                            "{i}You stand above his motionless body for a moment in silence, reflecting upon your decision. It certainly did not feel right.{/i}"
 
                             stop music fadeout 1.0
                             play music "wind_theme.mp3"
@@ -338,7 +338,7 @@ label act_two_b1_p2:
                             scene evil_castle
                             with dissolve
 
-                            "You proceed to carry him outside to hold a proper ceremony and give him a proper burial."
+                            "{i}You proceed to carry him outside to hold a proper ceremony and give him a proper burial.{/i}"
 
                             stop music fadeout 1.0
                             play music "main_menu.mp3"
@@ -346,12 +346,12 @@ label act_two_b1_p2:
                             scene main_menu_bg
                             with dissolve
 
-                            "You solemnly travel back to the kingdom"
+                            "{i}You solemnly travel back to the kingdom.{/i}"
 
-                            "After collecting your bounty, you hear songs and praises about your recent achievement."
+                            "{i}After collecting your bounty, you hear songs and praises about your recent achievement.{/i}"
 
-                            "Claiming the rewards associated with Ludwig’s demise did not give you any ounce of fulfillment."
+                            "{i}Claiming the rewards associated with Ludwig’s demise did not give you any ounce of fulfillment.{/i}"
 
-                            "The End."
+                            "{i}The End.{/i}"
 
                             jump end

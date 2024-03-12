@@ -118,7 +118,7 @@ label act_three_b2:
                     xalign 0.1
                     yalign 0.45
 
-                show dr_p:
+                show dr_p_smile:
                     zoom 0.25
                     xalign 0.85
                     yalign 0.80           
@@ -151,7 +151,7 @@ label act_three_b2:
                     xalign 0.1
                     yalign 0.75
 
-                show dr_p:
+                show dr_p_smile:
                     zoom 0.25
                     xalign 0.85
                     yalign 0.80
@@ -166,7 +166,7 @@ label act_three_b2:
                     xalign 0.1
                     yalign 0.45
 
-                show dr_p:
+                show dr_p_smile:
                     zoom 0.25
                     xalign 0.85
                     yalign 0.80         
@@ -197,7 +197,7 @@ label act_three_b2:
                     xalign 0.1
                     yalign 0.45
 
-                show dr_p:
+                show dr_p_smile:
                     zoom 0.25
                     xalign 0.85
                     yalign 0.80          
@@ -228,7 +228,7 @@ label act_three_b2:
                     xalign 0.1
                     yalign 0.45
 
-                show dr_p:
+                show dr_p_smile:
                     zoom 0.25
                     xalign 0.85
                     yalign 0.80          
@@ -264,7 +264,7 @@ label act_three_b2:
                     xalign 0.1
                     yalign 0.45
 
-                show dr_p:
+                show dr_p_smile:
                     zoom 0.25
                     xalign 0.85
                     yalign 0.80           
@@ -297,7 +297,7 @@ label act_three_b2:
                     xalign 0.1
                     yalign 0.45
 
-                show dr_p:
+                show dr_p_smile:
                     zoom 0.25
                     xalign 0.85
                     yalign 0.80           

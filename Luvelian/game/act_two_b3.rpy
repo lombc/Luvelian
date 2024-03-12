@@ -6,11 +6,11 @@ label act_two_b3:
     stop music fadeout 1.0
     play music "wind_theme.mp3"
 
-    "Leaving the forest, you finally come across the Abandoned Castle."
+    "{i}Leaving the forest, you finally come across the Abandoned Castle.{/i}"
 
-    "As you approach the gates of the castle, you notice a hooded figure leaning on the gate."
+    "{i}As you approach the gates of the castle, you notice a hooded figure leaning on the gate.{/i}"
 
-    "Deciding not to cause any trouble, you ignore the individual and reach towards the gate"
+    "{i}Deciding not to cause any trouble, you ignore the individual and reach towards the gate.{/i}"
 
     scene evil_castle
     with dissolve
@@ -30,7 +30,7 @@ label act_two_b3:
 
     play sound "metal_clank.mp3"
 
-    "The hooded figure hits the gate with his scythe just inches away from your hand."
+    "{i}The hooded figure hits the gate with his scythe just inches away from your hand.{/i}"
 
     stop sound fadeout 1.0
 
@@ -85,8 +85,8 @@ label act_two_b3:
                     xalign 1.0
                     yalign 0.90
 
-                "The figure slowly runs his finger along the edge of his scythe."
-                "You are reminded of the deer you left alone to die. You feel guilty. You begin to be lost in thought."
+                "{i}The figure slowly runs his finger along the edge of his scythe.{/i}"
+                "{i}You are reminded of the deer you left alone to die. You feel guilty. You begin to be lost in thought.{/i}"
 
                 scene evil_castle
 
@@ -116,7 +116,7 @@ label act_two_b3:
                     xalign 1.0
                     yalign 0.90
 
-                "You come back to your senses and notice the figure waiting for a response from you."
+                "{i}You come back to your senses and notice the figure waiting for a response from you.{/i}"
 
                 menu:
                     ".........Uhhh, I'm sorry but what did you say?":
@@ -202,7 +202,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "He brings his weapon back, looking to attack you as you lie helplessly on the ground."
+                            "{i}He brings his weapon back, looking to attack you as you lie helplessly on the ground.{/i}"
 
                             scene evil_castle
 
@@ -232,7 +232,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "Acting fast, you kick the figure\’s leg as he starts to swing, causing him to lose balance"
+                            "{i}Acting fast, you kick the figure\’s leg as he starts to swing, causing him to lose balance.{/i}"
 
                             scene evil_castle with hpunch
 
@@ -247,7 +247,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
                             
-                            "In an instant, you unleash a swift uppercut to the figure\’s jaw, sending him spiraling to the ground."
+                            "{i}In an instant, you unleash a swift uppercut to the figure\’s jaw, sending him spiraling to the ground.{/i}"
 
                             scene evil_castle with vpunch
 
@@ -277,7 +277,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "The figure slam his fist into the ground and reaches his hand out to you."
+                            "{i}The figure slam his fist into the ground and reaches his hand out to you.{/i}"
 
                             scene evil_castle
 
@@ -322,7 +322,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "The figure glares at you menacingly."
+                            "{i}The figure glares at you menacingly.{/i}"
 
                             scene evil_castle
 
@@ -337,7 +337,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.60 
 
-                            uc "I\’ll give you some insight on the man you seek in there for starters."
+                            uc "I\’ll give you some insight on the man you seek in there for starters.{/i}"
 
                             scene evil_castle
 
@@ -352,8 +352,8 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "Tilting your head, you contemplate his offer for a moment. Can you really trust this individual?"
-                            "You ultimately decide to give him back his scythe. He clearly is no match for you anyhow. You give him your hand as you help him up and give him back his scythe."
+                            "{i}Tilting your head, you contemplate his offer for a moment. Can you really trust this individual?{/i}"
+                            "{i}You ultimately decide to give him back his scythe. He clearly is no match for you anyhow. You give him your hand as you help him up and give him back his scythe.{/i}"
 
                             scene evil_castle
 
@@ -383,7 +383,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "The figure dusts himself off and straightens his cloak."
+                            "{i}The figure dusts himself off and straightens his cloak.{/i}"
 
                             scene evil_castle
 
@@ -413,7 +413,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "Reaper turns his head towards the castle with a longing glance for a moment."
+                            "{i}Reaper turns his head towards the castle with a longing glance for a moment.{/i}"
 
                             scene evil_castle
 
@@ -476,7 +476,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "Reaper tilts his head side to side, omitting several sounds of bones cracking."
+                            "{i}Reaper tilts his head side to side, omitting several sounds of bones cracking.{/i}"
 
                             scene evil_castle
 
@@ -506,7 +506,7 @@ label act_two_b3:
                                 xalign 1.0
                                 yalign 0.90
 
-                            "Reaper opens the gate for you and steps aside."
+                            "{i}Reaper opens the gate for you and steps aside.{/i}"
                             play sound "door_creak.mp3"
 
                             scene evil_castle
@@ -530,8 +530,8 @@ label act_two_b3:
 
                             play sound "woosh.mp3" noloop
 
-                            "Suddenly, Reaper disappears into a thick black mist."
-                            "You decide to pass through the gate and enter the Abandoned Castle."
+                            "{i}Suddenly, Reaper disappears into a thick black mist.{/i}"
+                            "{i}You decide to pass through the gate and enter the Abandoned Castle.{/i}"
 
                             jump act_two_b1_p2
 

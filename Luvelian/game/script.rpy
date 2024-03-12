@@ -78,7 +78,7 @@ label start:
                 xalign 0.5
                 yalign 0.5
             with dissolve
-            'Are you male?'
+            '{i}Are you male?{/i}'
 
             menu:
                 "Yes":
@@ -93,7 +93,7 @@ label start:
                 xalign 0.5
                 yalign 0.5
             with dissolve
-            'Are you female?'
+            '{i}Are you female?{/i}'
 
             menu:
                 "Yes":
@@ -108,7 +108,7 @@ label start:
                 xalign 0.5
                 yalign 0.5
             with dissolve
-            'Are you neither?'
+            '{i}Are you neither?{/i}'
 
             menu:
                 "Yes":
@@ -131,13 +131,13 @@ label start:
     # Put background of Kingdom here
     scene main_menu_bg with dissolve
 
-    "[hr], you are the hero of a kingdom, who has proven yourself in battle and as a responsible pillar of justice. However, one thing weighs on your mind."
+    "{i}[hr], you are the hero of a kingdom, who has proven yourself in battle and as a responsible pillar of justice. However, one thing weighs on your mind.{/i}"
 
-    "No amount of adventures, gold, or accolades can fill the void that is your singled lonely heart."
+    "{i}No amount of adventures, gold, or accolades can fill the void that is your singled lonely heart.{/i}"
 
-    "You\’ve decided to find love anywhere you can."
+    "{i}You\’ve decided to find love anywhere you can.{/i}"
 
-    "You still have a responsibility to keep the kingdom and its surroundings safe however."
+    "{i}You still have a responsibility to keep the kingdom and its surroundings safe however.{/i}"
 
     # Put background of a bounty board here
     scene main_menu_bg with dissolve
@@ -147,9 +147,9 @@ label start:
         yalign 1.0
     with dissolve
 
-    "You resort to the one thing you do best, which is checking the local bounty board for any jobs that need to be done."
+    "{i}You resort to the one thing you do best, which is checking the local bounty board for any jobs that need to be done.{/i}"
 
-    "Five Wanted posters are posted on the bounty board - Demon, Dryad, Cursed Knight, Arachne, Bandit Captain."
+    "{i}Five Wanted posters are posted on the bounty board - Demon, Dryad, Cursed Knight, Arachne, Bandit Captain.{/i}"
 
     show bounty_blur:
         zoom 0.25
@@ -176,7 +176,7 @@ label start:
     scene chaos with dissolve
     stop music fadeout 1.0
     play music "encounter.mp3"
-    "This villain is too powerful for you to defeat. You are killed, the kingdom plunges into chaos, and its citizens experience demise. Game Over."
+    "{i}This villain is too powerful for you to defeat. You are killed, the kingdom plunges into chaos, and its citizens experience demise. Game Over.{/i}"
 
     label end:
 

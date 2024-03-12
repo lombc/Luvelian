@@ -2,24 +2,24 @@
 
 label cursed_knight:
 
-"You pick up the wanted poster for the Cursed Knight, reward-1000 gold coins."
+"{i}You pick up the wanted poster for the Cursed Knight whose reward goes for 1000 gold coins.{/i}"
 
-"Description: A Cursed Knight has taken residence in a nearby abandoned castle and has been killing anyone who gets close."
+"{i}Description: A Cursed Knight has taken residence in a nearby abandoned castle and has been killing anyone who gets close.{/i}"
 
-"A bounty has been placed for his life."
+"{i}A bounty has been placed for his life.{/i}"
 
-"You accept the bounty and head in the direction of the abandoned castle."
+"{i}You accept the bounty and head in the direction of the abandoned castle.{/i}"
 
 # Put background of a forest here
 scene forest_bg with dissolve
 stop music fadeout 1.0
 play music "forest_theme.mp3"
 
-"You trek through the forest for a couple hours before hearing the sounds of a voice yelling for help."
+"{i}You trek through the forest for a couple hours before hearing the sounds of a voice yelling for help.{/i}"
 
-sc "Please help! I\’m trapped in a spider web!"
+sc "Please help! I\’m trapped in a spider web!{/i}"
 
-"You see a woman trapped in a web struggling to break free from a large spider web between two trees."
+"{i}You see a woman trapped in a web struggling to break free from a large spider web between two trees.{/i}"
 
 menu:
     "Do you help the stranger break free or continue on your path?"
@@ -33,11 +33,11 @@ menu:
 
 label help_stranger:
 
-    "Just as the stranger is freed from the web your vision blacks out for a moment as you're quickly wrapped into the web by the stranger."
+    "{i}Just as the stranger is freed from the web your vision blacks out for a moment as you're quickly wrapped into the web by the stranger.{/i}"
 
     scene forest_bg with vpunch
 
-    "The stranger reveals their true identity, you see a large half woman/half spider."    
+    "{i}The stranger reveals their true identity, you see a large half woman/half spider.{/i}"    
 
     show hr_p_webbed:
         zoom 0.40
@@ -379,7 +379,7 @@ label help_stranger:
 
     ar "Take this locket with you. It may prove helpful to you."
 
-    "*Arachne places the locket in the web trap*"
+    "{i}Arachne places the locket in the web trap.{/i}"
 
     scene forest_bg
 
@@ -424,7 +424,7 @@ label help_stranger:
         xalign 1.0
         yalign 0.65
 
-    "*Arachne disappears into the forest*"
+    "{i}Arachne disappears into the forest.{/i}"
 
     scene forest_bg
 
@@ -444,12 +444,12 @@ label help_stranger:
         yalign 0.60
     with dissolve
 
-    "[hr] struggled for half an hour before finally freeing themselves from Arachne's web picking up the locket on the way out"
+    "{i}[hr] struggled for half an hour before finally freeing themselves from Arachne's web picking up the locket on the way out.{/i}"
 
     scene forest_bg
     with dissolve
 
-    "After a few hours of traveling you notice something odd on your path."
+    "{i}After a few hours of traveling you notice something odd on your path.{/i}"
 
     show deer_dead:
         zoom 0.30
@@ -457,14 +457,14 @@ label help_stranger:
         yalign 0.80
     with dissolve
 
-    "The corpse of a dead deer comes into view. Perhaps if you got here sooner then the deer's life could be saved."
+    "{i}The corpse of a dead deer comes into view. Perhaps if you got here sooner then the deer's life could be saved.{/i}"
 
-    "The gaze of the forest is upon you and seems to blow the winds of disappointment."
+    "{i}The gaze of the forest is upon you and seems to blow the winds of disappointment.{/i}"
 
     scene forest_bg
     with dissolve
 
-    "You continue on your path to the abandoned castle."
+    "{i}You continue on your path to the abandoned castle.{/i}"
 
     jump act_two_b1
 
@@ -473,9 +473,9 @@ label help_stranger:
 
     label dont_help_stranger:
 
-    "You hear the stranger begging for help as you pass by ignoring their pleas."
+    "{i}You hear the stranger begging for help as you pass by ignoring their pleas.{/i}"
 
-    "You then continue on your path."
+    "{i}You then continue on your path.{/i}"
 
     show deer_wounded:
         zoom 0.30
@@ -483,9 +483,9 @@ label help_stranger:
         yalign 0.80
     with dissolve
 
-    "After some time passes you see a wounded deer on the side of your path. The deer seems to have a wounded limb and is losing a lot of blood."
+    "{i}After some time passes you see a wounded deer on the side of your path. The deer seems to have a wounded limb and is losing a lot of blood.{/i}"
 
-    "The deer will die if you do not give aid. "
+    "{i}The deer will die if you do not give aid.{/i}"
 
     menu:
         "Do you take time to bandage the deer?"
@@ -508,14 +508,14 @@ label help_stranger:
 
     $ deer_help = 1
 
-    "You take the time to bandage the deers wound and give it some water from your canteen."
+    "{i}You take the time to bandage the deers wound and give it some water from your canteen.{/i}"
 
-    "The deer takes a moment to get to its feet but gives you some licks as it rushes off into the forest."
+    "{i}The deer takes a moment to get to its feet but gives you some licks as it rushes off into the forest.{/i}"
 
     scene forest_bg
     with dissolve
 
-    "You continue on your journey."
+    "{i}You continue on your journey.{/i}"
 
     # Create jump label to act where you approach reaper > no locket > not know cursed knight's name
     jump act_two_b2
@@ -533,8 +533,8 @@ label help_stranger:
         yalign 0.80
     with dissolve
 
-    "You avoid the deer and choose to ration your own resources for the journey ahead."
+    "{i}You avoid the deer and choose to ration your own resources for the journey ahead.{/i}"
 
-    "You continue on your journey."
+    "{i}You continue on your journey.{/i}"
             
     jump act_two_b3

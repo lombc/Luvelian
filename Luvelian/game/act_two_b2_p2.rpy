@@ -11,8 +11,8 @@ label act_two_b2_p2:
         scene corridor
         with dissolve
 
-        "You enter a vast ruined corridor upon opening the castle doors."
-        "In the distance, you spot a man in armor on the ground, back against the corridor wall with his head down."
+        "{i}You enter a vast ruined corridor upon opening the castle doors.{/i}"
+        "{i}In the distance, you spot a man in armor on the ground, back against the corridor wall with his head down.{/i}"
 
         show hr_p:
             zoom 0.40
@@ -27,8 +27,8 @@ label act_two_b2_p2:
             yalign 0.90
         with dissolve
 
-        "He appears to be in pain, and his armor is emitting a mysterious purple aura."
-        "You slowly approach the man."
+        "{i}He appears to be in pain, and his armor is emitting a mysterious purple aura.{/i}"
+        "{i}You slowly approach the man.{/i}"
 
         menu:
             "You call out to him."
@@ -54,7 +54,7 @@ label act_two_b2_p2:
                     ck "Cursed Knight?"
                     ck "...A fitting name I suppose. My body is decaying as we speak."
                     lg "The name is Ludwig. Would rather you not call me the former, despite its verity."
-                    "As Ludwig grimaces, you inspect his damaged and veiny skin, flushed with an unnatural purple tone."
+                    "{i}As Ludwig grimaces, you inspect his damaged and veiny skin, flushed with an unnatural purple tone.{/i}"
                     lg "This affliction will be my demise…"
 
                     scene corridor
