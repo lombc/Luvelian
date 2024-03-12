@@ -7,6 +7,13 @@ define narrator = Character(None, italics=True)
 define hr = Character(color="#52be4f")
 image hr_p = "hr.png"
 image hr_p_webbed = "hr_webbed.png"
+image hr_p_angry = "Hero_Angry.png"
+image hr_p_fight = "Hero_FightPose.png"
+image hr_p_flat = "Hero_FlatFace.png"
+image hr_p_kawaii = "Hero_Kawaii.png"
+image hr_p_surprised = "Hero_Surprised.png"
+image hr_p_think = "Hero_Thinking.png"
+image hr_p_webbed_2 = "Hero_Webbed.png"
 
 # Cursed Knight/Ludwig
 define ck = Character("Cursed Knight", color="#9e063b")
