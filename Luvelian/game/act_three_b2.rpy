@@ -2,7 +2,7 @@ label act_three_b2:
     scene nature
     with dissolve
 
-    "On the way to retrieve the Relief Rune, you catch a glimpse of something."
+    "{i}On the way to retrieve the Relief Rune, you catch a glimpse of something.{/i}"
     
     show deer_healed:
         zoom 0.25
@@ -10,8 +10,8 @@ label act_three_b2:
         yalign 0.80
     with dissolve
 
-    "It turns out to be the deer that you saved from its demise early on."
-    "You noticed that the deer is urging you in another direction."
+    "{i}It turns out to be the deer that you saved from its demise early on.{/i}"
+    "{i}You noticed that the deer is urging you in another direction.{/i}"
 
     menu:
         "Follow the deer.":
@@ -45,12 +45,12 @@ label act_three_b2:
                 scene nature
                 with dissolve
 
-                "After minutes of following the deer, you immediately spot a cave from a nearby distance."
+                "{i}After minutes of following the deer, you immediately spot a cave from a nearby distance.{/i}"
                 
                 scene cave
                 with dissolve
 
-                "You squint and notice that there's a stone glowing located in the middle of the altar."
+                "{i}You squint and notice that there's a stone glowing located in the middle of the altar.{/i}"
 
                 show hr_p:
                     zoom 0.40
@@ -63,7 +63,7 @@ label act_three_b2:
                 scene cave
                 with dissolve
 
-                "You jog to the altar but as you were about to reach it, an entity comes from behind it." 
+                "{i}You jog to the altar but as you were about to reach it, an entity comes from behind it.{/i}" 
 
                 show hr_p:
                     zoom 0.40
@@ -78,7 +78,7 @@ label act_three_b2:
                     yalign 0.80
                 with dissolve
 
-                "...."
+                "{i}....{/i}"
 
                 scene cave
 
@@ -108,7 +108,7 @@ label act_three_b2:
                     xalign 0.85
                     yalign 0.80
 
-                "Caught off guard, you clutch the handle of your sword."
+                "{i}Caught off guard, you clutch the handle of your sword.{/i}"
 
                 scene cave
 
@@ -156,7 +156,7 @@ label act_three_b2:
                     xalign 0.85
                     yalign 0.80
 
-                "Dryad glances at the deer."
+                "{i}Dryad glances at the deer.{/i}"
 
                 scene cave
 
@@ -307,18 +307,18 @@ label act_three_b2:
                 scene cave
                 with dissolve
 
-                "You retrieve the Forest Rune and quickly travel to the altar by the town of Cendria."
+                "{i}You retrieve the Forest Rune and quickly travel to the altar by the town of Cendria.{/i}"
 
                 scene altar
                 with dissolve
 
-                "You spent minutes investigating the altar to see if there are any contraptions that might hinder you from taking the Relief Rune."
-                "To your surprise, there were no traps or tricks that you had to be careful about."
-                "You then proceeded to take the Relief Rune."
+                "{i}You spent minutes investigating the altar to see if there are any contraptions that might hinder you from taking the Relief Rune.{/i}"
+                "{i}To your surprise, there were no traps or tricks that you had to be careful about.{/i}"
+                "{i}You then proceeded to take the Relief Rune.{/i}"
 
                 play sound "clink.mp3"
 
-                "You then quickly place the Forest Rune on the slot where the Relief Rune\’s previously located."                                      
+                "{i}You then quickly place the Forest Rune on the slot where the Relief Rune\’s previously located.{/i}"                                      
 
                 play sound  "clink.mp3"
 
@@ -332,9 +332,9 @@ label act_three_b2:
 
                 play sound "landslide.mp3"
 
-                "Feeling relieved for a while, a frightening sound can be heard by the mountainside where the altar was located."
+                "{i}Feeling relieved for a while, a frightening sound can be heard by the mountainside where the altar was located.{/i}"
 
-                "Then the sound ceased."
+                "{i}Then the sound ceased.{/i}"
 
                 stop sound fadeout 1.0
 
@@ -350,14 +350,14 @@ label act_three_b2:
                 scene altar
                 with dissolve
 
-                "You then proceed to head back."
+                "{i}You then proceed to head back.{/i}"
 
                 play music "corridor.mp3"
 
                 scene corridor
                 with dissolve
 
-                "Continuously traveling, you finally got back to the Abandoned Castle."
+                "{i}Continuously traveling, you finally got back to the Abandoned Castle.{/i}"
 
                 show hr_p:
                     zoom 0.40
@@ -370,7 +370,7 @@ label act_three_b2:
                 scene corridor
                 with dissolve
 
-                "Ludwig then struggles to walk down to the Main Hall to greet you."
+                "{i}Ludwig then struggles to walk down to the Main Hall to greet you.{/i}"
 
                 show hr_p:
                     zoom 0.40
@@ -385,7 +385,7 @@ label act_three_b2:
                     yalign 0.90
                 with dissolve 
 
-                "He then falls into your arms, fighting away at the curse that is slowly consuming him."
+                "{i}He then falls into your arms, fighting away at the curse that is slowly consuming him.{/i}"
 
                 scene corridor
 
@@ -404,7 +404,7 @@ label act_three_b2:
 
                 play sound "glowing.mp3"
 
-                "You then place the Relief Rune on Ludwig\’s chest, and the curse that was consuming him slowly fades away."
+                "{i}You then place the Relief Rune on Ludwig\’s chest, and the curse that was consuming him slowly fades away.{/i}"
 
                 stop sound fadeout 1.0
 
@@ -501,16 +501,16 @@ label act_three_b2:
                 scene evil_castle
                 with dissolve
 
-                "Upon leaving the Abandoned Castle, you proceeds to head back to the Kingdom to show Ludwig around."  
+                "{i}Upon leaving the Abandoned Castle, you proceeds to head back to the Kingdom to show Ludwig around.{/i}"  
 
                 scene main_menu_bg
                 with dissolve
 
                 play music "main_menu.mp3"
 
-                "Helping him integrate back into society, after a long slumber."
+                "{i}Helping him integrate back into society, after a long slumber.{/i}"
 
-                "Congratulations on getting the good ending! You have successfully saved Ludwig from the curse and managed to prevent catastrophe from befalling the Town of Cendria!"              
+                "{i}Congratulations on getting the good ending! You have successfully saved Ludwig from the curse and managed to prevent catastrophe from befalling the Town of Cendria!{/i}"              
 
                 jump end
 

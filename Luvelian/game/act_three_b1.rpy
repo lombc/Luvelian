@@ -5,14 +5,14 @@ label act_three_b1:
     scene nature
     with dissolve
 
-    "You spend hours of searching and continuously deliberating what you are going to do next."
-    "Eventually, you spot the altar where the Relief Rune is strictly stored."
+    "{i}You spend hours of searching and continuously deliberating what you are going to do next.{/i}"
+    "{i}Eventually, you spot the altar where the Relief Rune is strictly stored.{/i}"
 
     scene altar
     with dissolve    
 
-    "As you were gazing in awe of the Relief Rune, you can not help but feel conflicted about what will happen with either the decisions that you have to make."
-    "Will you take the Relief Rune?"
+    "{i}As you were gazing in awe of the Relief Rune, you can not help but feel conflicted about what will happen with either the decisions that you have to make.{/i}"
+    "{i}Will you take the Relief Rune?"
 
     menu:
         "Take the Relief Rune":
@@ -21,13 +21,13 @@ label act_three_b1:
             jump dont_take_rune
 
             label take_rune:
-                "You spend minutes investigating the altar to see if there are any contraptions that might hinder them from taking the Relief Rune."
-                "To their surprise, there were no traps or tricks that they had to be careful about."
-                "You then proceeded to take the Relief Rune and left the altar."
+                "{i}You spend minutes investigating the altar to see if there are any contraptions that might hinder them from taking the Relief Rune.{/i}"
+                "{i}To their surprise, there were no traps or tricks that they had to be careful about.{/i}"
+                "{i}You then proceeded to take the Relief Rune and left the altar.{/i}"
 
                 play sound "clink.mp3"
                 
-                "After struggling from pulling the Relief Rune from its placements, you successfully took the Relief Rune."
+                "{/i}After struggling from pulling the Relief Rune from its placements, you successfully took the Relief Rune.{/i}"
 
                 show hr_p:
                     zoom 0.40
@@ -40,14 +40,14 @@ label act_three_b1:
                 scene altar
                 with dissolve  
 
-                "Feeling relieved for a while, a frightening sound can be heard by the mountainside where the altar was located."
+                "{/i}Feeling relieved for a while, a frightening sound can be heard by the mountainside where the altar was located.{/i}"
 
                 play sound "landslide.mp3"
 
                 scene flood
                 with dissolve
 
-                "You then stare in horror as you see a huge flood flow from the mountainside and onto the Cendria ravaging the homes and taking the lives of people that inhabit it."
+                "{/i}You then stare in horror as you see a huge flood flow from the mountainside and onto the Cendria ravaging the homes and taking the lives of people that inhabit it.{/i}"
 
                 stop sound fadeout 2.0
                 play sound "panic.mp3"
@@ -57,7 +57,7 @@ label act_three_b1:
 
                 stop sound fadeout 2.0
 
-                "To escape the madness, you quickly traverse the landscape to get back to the Abandoned Castle."
+                "{/i}To escape the madness, you quickly traverse the landscape to get back to the Abandoned Castle.{/i}"
 
                 show hr_p:
                     zoom 0.40
@@ -67,7 +67,7 @@ label act_three_b1:
 
                 hr "What have I done?"
 
-                "On your way back to the Abandoned Castle, you can not help but feel immense guilt over the taking of the Relief Rune."
+                "{/i}On your way back to the Abandoned Castle, you can not help but feel immense guilt over the taking of the Relief Rune.{/i}"
 
                 scene evil_castle
                 with dissolve
@@ -78,12 +78,12 @@ label act_three_b1:
                     yalign 0.60
                 with dissolve                
                 
-                hr "I did what I have to do, it was either that flood or Ludwig taking that town and causing mayhem."
+                hr "I did what I have to do, it was either that flood or Ludwig taking that town and causing mayhem.{/i}"
 
                 scene corridor
                 with dissolve
 
-                "Continuously traveling, you finally made it back to the Abandoned Castle"
+                "{i}Continuously traveling, you finally made it back to the Abandoned Castle.{/i}"
 
                 show hr_p:
                     zoom 0.40
@@ -96,7 +96,7 @@ label act_three_b1:
                 scene corridor
                 with dissolve
 
-                "Ludwig then struggles to walk down to the Main Hall to greet you."
+                "{i}Ludwig then struggles to walk down to the Main Hall to greet you.{/i}"
 
                 show hr_p:
                     zoom 0.40
@@ -111,7 +111,7 @@ label act_three_b1:
                     yalign 0.90
                 with dissolve 
 
-                "He then falls into your arms, fighting away at the curse that is slowly consuming him."
+                "{i}He then falls into your arms, fighting away at the curse that is slowly consuming him.{/i}"
 
                 scene corridor
 
@@ -132,7 +132,7 @@ label act_three_b1:
 
                 play sound "glowing.mp3"
 
-                "You then place the Relief Rune on Ludwig\’s chest, and the curse that was consuming him slowly fades away."
+                "{i}You then place the Relief Rune on Ludwig\’s chest, and the curse that was consuming him slowly fades away.{/i}"
 
                 scene corridor
 
@@ -227,7 +227,7 @@ label act_three_b1:
                 scene evil_castle
                 with dissolve
 
-                "Upon leaving the Abandoned Castle, *you hear a slight cry from a distance or was it just their imagination?"                
+                "{i}Upon leaving the Abandoned Castle, *you hear a slight cry from a distance or was it just their imagination?{/i}"                
 
                 jump end
 
@@ -236,9 +236,9 @@ label act_three_b1:
                 scene altar
                 with dissolve   
 
-                "You spend minutes investigating the altar to see if there are any contraptions that might hinder them from taking the Relief Rune."
-                "To their surprise, there were no traps or tricks that they had to be careful about."
-                "After catching a glance of the town of Cendria, you ponder and decide to not take the rune."
+                "{i}You spend minutes investigating the altar to see if there are any contraptions that might hinder them from taking the Relief Rune.{/i}"
+                "{i}To their surprise, there were no traps or tricks that they had to be careful about.{/i}"
+                "{i}After catching a glance of the town of Cendria, you ponder and decide to not take the rune.{/i}"
             
                 show hr_p:
                     zoom 0.40
@@ -253,12 +253,12 @@ label act_three_b1:
                 scene altar
                 with dissolve
 
-                "After gazing much more at the Relief Rune, *Insert name here* travels back to the Abandoned Castle."
+                "{i}After gazing much more at the Relief Rune, *Insert name here* travels back to the Abandoned Castle.{/i}"
 
                 scene evil_castle
                 with dissolve
 
-                "When they reach the castle, they immediately run up to where Ludwig was resting."
+                "{i}When they reach the castle, they immediately run up to where Ludwig was resting.{/i}"
 
                 scene corridor
                 with dissolve
@@ -274,7 +274,7 @@ label act_three_b1:
                     xalign 0.85
                     yalign 0.90
 
-                "Ludwig then struggles to walk down to the Main Hall to greet you."
+                "{i}Ludwig then struggles to walk down to the Main Hall to greet you.{/i}"
 
                 scene corridor
 
@@ -337,13 +337,13 @@ label act_three_b1:
                     xalign 0.85
                     yalign 0.90
 
-                "After a few seconds, the cursed armor slowly consumes Ludwig and the dark aura that enveloped him became more prominent."
-                "They then get into it."
+                "{i}After a few seconds, the cursed armor slowly consumes Ludwig and the dark aura that enveloped him became more prominent.{/i}"
+                "{i}They then get into it.{/i}"
                 
                 scene corridor with hpunch
                 play sound "swords.mp3"
 
-                "Few minutes into the heated battle, you keep slashing away but Ludwig\’s armor just keeps on toughening up with the expense of it further corrupting Ludwig."
+                "{i}Few minutes into the heated battle, you keep slashing away but Ludwig\’s armor just keeps on toughening up with the expense of it further corrupting Ludwig.{/i}"
 
                 scene corridor with vpunch
                 play sound "swords.mp3"
@@ -384,7 +384,7 @@ label act_three_b1:
                 scene corridor
                 with dissolve
 
-                "You continue exchanging slashes with Ludwig, until you find an opening and stab him."
+                "{i}You continue exchanging slashes with Ludwig, until you find an opening and stab him.{/i}"
 
                 play sound "stab.mp3"
 
@@ -404,7 +404,7 @@ label act_three_b1:
                     yalign 0.90
                 with dissolve
 
-                "Ludwig drops into your arms, slowly dying."
+                "{i}Ludwig drops into your arms, slowly dying.{/i}"
 
                 play sound "fall.mp3"
 
@@ -421,7 +421,7 @@ label act_three_b1:
                     xalign 0.85
                     yalign 0.90
 
-                "Why did it have to come to this?!"
+                "{i}Why did it have to come to this?!{/i}"
 
                 scene corridor
 
@@ -443,7 +443,7 @@ label act_three_b1:
                 scene corridor
                 with dissolve
 
-                "Ludwig passes away in your arms."
+                "{i}Ludwig passes away in your arms.{/i}"
 
                 hr "WHY??!!!!!"
 
@@ -453,7 +453,7 @@ label act_three_b1:
                     yalign 0.60
                 with dissolve
 
-                "You caress Ludwig, then proceed to carry him outside to hold a proper ceremony and give him a proper burial."
+                "{i}You caress Ludwig, then proceed to carry him outside to hold a proper ceremony and give him a proper burial.{/i}"
 
                 scene corridor
                 with dissolve
@@ -463,13 +463,13 @@ label act_three_b1:
                 scene main_menu_bg
                 with dissolve
 
-                "You solemnly travel back to the kingdom."
+                "{i}You solemnly travel back to the kingdom.{/i}"
 
-                "After collecting your bounty, you hear songs and praises about your recent achievement."
+                "{i}After collecting your bounty, you hear songs and praises about your recent achievement.{/i}"
 
-                "Claiming the rewards associated with Ludwig’s demise did not give you any ounce of fulfillment."
+                "{i}Claiming the rewards associated with Ludwig’s demise did not give you any ounce of fulfillment.{/i}"
 
-                "The End."
+                "{i}The End."
 
                 jump end    
 
